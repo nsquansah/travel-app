@@ -77,7 +77,7 @@ float: right;
   line-height: 20px;
   letter-spacing: 0em;
   text-align: left;
-  margin-top: 150px;
+  margin-top: 135px;
   margin-left: 114.91px;
 }
 
@@ -90,7 +90,14 @@ float: right;
  letter-spacing: -0.04em;
  text-align: left;
  color: #181E4B;
-  margin-left: 114.91px;
+ margin-left: 114.91px;
+}
+
+.enjoy{
+  color:#181E4B;
+  text-decoration: underline;
+  text-decoration-color:#DF6951;
+  text-decoration-thickness: 10px;
 }
 
 .container{
@@ -121,7 +128,7 @@ float: right;
   background-color:#F1A501;
   color: #FFFFFF;
   width: 170px;
-  height: 60px;
+  height: 40px;
   top: 692px;
   left: 148px;
   border-radius: 10px;
@@ -130,18 +137,23 @@ float: right;
 }
 
 .play{
+  color: black;
   border: none;
-  font-family: Poppins;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 26px;
-  letter-spacing: 0em;
-  text-align: left;
+  background-color: #FFFFFF;
 
 }
 
 .sign-up{
   border-radius: 10px;
   width: 1080px;
+}
 
+/* a circle background with orange color */
+/* horizontally algin content in the center */
+.play-button{
+  background-color: #F1A501;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  justify-content: center;
 }
